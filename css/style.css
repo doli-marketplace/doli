@@ -114,12 +114,18 @@ section {
 
 .header .navbar a:hover {
   color: #eb4d4b;
+  font-weight: bold;
 }
 
 .header .icons div,
 .header .icons a {
   font-size: 2.5rem;
   margin-left: 2rem;
+}
+
+.header .icons div.user:hover,
+.header .icons a.user:hover {
+  -webkit-text-stroke: none;
 }
 
 .header .search-form {

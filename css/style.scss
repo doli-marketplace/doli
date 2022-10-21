@@ -114,7 +114,9 @@ section{
 
             &:hover{
                 color: $red;
+                font-weight: bold;
             }
+
         }
 
     }
@@ -124,6 +126,10 @@ section{
         font-size: 2.5rem;
         margin-left: 2rem;
         @extend %text-stroke;
+
+        &.user:hover{
+            -webkit-text-stroke: none;
+        }
     }
 
     .search-form{
