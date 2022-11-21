@@ -358,6 +358,7 @@ section {
 }
 
 .about .about-text p {
+  text-transform: none;
   font-size: 1.8rem;
   color: #130f40;
   line-height: 28px;
